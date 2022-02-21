@@ -21,8 +21,13 @@ function App() {
         Heading
       </h1>
       <h1>{name}</h1>
+<<<<<<< HEAD
       <p> user details</p>
       <p>password</p>
+=======
+      <p>lorem20</p>
+      <p>samrasimha</p>
+>>>>>>> def8eb48afb52e483eac4a0bdf5a0d093da57193
       {false ? <h3>{num}</h3> : <h3>No number</h3>}
       {arr.map((value, index) => {
         return <h3>{value}</h3>;
