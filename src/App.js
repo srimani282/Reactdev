@@ -14,6 +14,7 @@ function App(props) {
         }}
       />
       <Children>
+        <h1> this is the my first change</h1>
         <h2>i make another changes</h2>
         <h1>this is new change</h1>
         <h1>Child from parent</h1>
