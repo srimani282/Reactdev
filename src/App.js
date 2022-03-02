@@ -9,7 +9,7 @@ import PostForm from "./components/forms/Post/PostForm";
 
 function App(props) {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Hooks />} />
@@ -17,7 +17,7 @@ function App(props) {
           <Route path="/basics" element={<Basics />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
