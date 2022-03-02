@@ -20,7 +20,7 @@ function PostForm(props) {
   return (
     <div className="container mt-5 pb-5 shadow">
       <div className="form-container">
-        <p>This is a POST FORM</p>
+        <p>This is a POST FORM data</p>
         <form>
           <div className="form-group">
             <label for="title">Title</label>
