@@ -5,7 +5,7 @@ import Basics from "./components/Basics";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Children from "./components/Children";
 import Hooks from "./components/Hooks";
-import PostForm from "./components/forms/Post/PostForm";
+import PostForm from "./components/PostForm";
 
 function App(props) {
   return (
@@ -15,6 +15,7 @@ function App(props) {
           <Route path="/" element={<Hooks />} />
           <Route path="/user-details" element={<UserDetails />} />
           <Route path="/basics" element={<Basics />} />
+          <Route path="/post-form" element={<PostForm />} />
         </Routes>
       </BrowserRouter>
     </>
