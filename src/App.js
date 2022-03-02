@@ -1,22 +1,22 @@
 import React from "react";
 import "./App.css";
 import UserDetails from "./components/UserDetails";
+import Basics from "./components/Basics";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Children from "./components/Children";
+import Hooks from "./components/Hooks";
+import PostForm from "./components/forms/Post/PostForm";
 
 function App(props) {
   return (
     <div>
-      <UserDetails
-        data={{
-          name: "sri",
-          cls: "degree",
-          course: "react",
-        }}
-      />
-      <Children>
-        <h1>Child from parent</h1>
-        <p>havsdhvsgv</p>
-      </Children>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Hooks />} />
+          <Route path="/user-details" element={<UserDetails />} />
+          <Route path="/basics" element={<Basics />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
