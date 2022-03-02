@@ -14,7 +14,7 @@ function App(props) {
         }}
       />
       <Children>
-        <h1> reactjs</h1>
+        <h1>practice pull request</h1>
         <h2>this is the my another change</h2>
         <h2>i make another changes</h2>
         <h1>this is new change</h1>
