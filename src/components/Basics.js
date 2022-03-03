@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import UserItem from "./UserItem";
 
 function Basics(props) {
   let name = "Sri Mani B";
@@ -26,12 +27,7 @@ function Basics(props) {
       })}
 
       {arrObj.map((value, index) => {
-        return (
-          <div className="user-item">
-            <h3>Name : {value.name}</h3>
-            <h3>Role : {value.role}</h3>
-          </div>
-        );
+        return <UserItem user={value} />;
       })}
     </div>
   );
