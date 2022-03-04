@@ -27,7 +27,7 @@ function Basics(props) {
       })}
 
       {arrObj.map((value, index) => {
-        return <UserItem user={value} />;
+        return <UserItem user={value} title={"Title"} />;
       })}
     </div>
   );

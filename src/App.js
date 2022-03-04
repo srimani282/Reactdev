@@ -19,7 +19,6 @@ function App(props) {
           <Route path="/basics" element={<Basics />} />
           <Route path="/post-form" element={<PostForm />} />
         </Routes>
-        <NavBar />
       </BrowserRouter>
     </>
   );
