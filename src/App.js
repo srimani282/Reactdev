@@ -7,6 +7,7 @@ import Children from "./components/Children";
 import Hooks from "./components/Hooks";
 import PostForm from "./components/PostForm";
 import NavBar from "./components/NavBar";
+import RajeshForm from "./components/RajeshForm";
 
 function App(props) {
   return (
@@ -18,6 +19,9 @@ function App(props) {
           <Route path="/user-details" element={<UserDetails />} />
           <Route path="/basics" element={<Basics />} />
           <Route path="/post-form" element={<PostForm />} />
+          <Route path="/rajesh-form" element={<RajeshForm />} />
+        
+    
         </Routes>
         <NavBar />
       </BrowserRouter>

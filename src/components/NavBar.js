@@ -31,6 +31,10 @@ function NavBar(props) {
               <li class="nav-item mr-5">
                 <Link to="/user-details"> UserDetails</Link>
               </li>
+        
+              <li class="nav-item mr-5">
+                <Link to="/rajesh-form"> RajeshForm</Link>
+              </li>
               <li class="nav-item dropdown mr-5">
                 <Link to="/post-form"> PostForm</Link>
                 <div
