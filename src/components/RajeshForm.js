@@ -4,7 +4,7 @@ function RajeshForm(){
 
     return (
         <div>
-            <p>this is new component</p>
+            <p>this is the new crated form</p>
         </div>
 
     );
