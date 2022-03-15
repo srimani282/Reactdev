@@ -8,6 +8,7 @@ import Hooks from "./components/Hooks";
 import PostForm from "./components/PostForm";
 import NavBar from "./components/NavBar";
 import RajeshForm from "./components/RajeshForm";
+import MaterialUi from "./components/MaterialUi";
 
 function App(props) {
   return (
@@ -20,10 +21,8 @@ function App(props) {
           <Route path="/basics" element={<Basics />} />
           <Route path="/post-form" element={<PostForm />} />
           <Route path="/rajesh-form" element={<RajeshForm />} />
-        
-    
+          <Route path="/material" element={<MaterialUi />} />
         </Routes>
-        <NavBar />
       </BrowserRouter>
     </>
   );
